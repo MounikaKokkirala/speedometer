@@ -1,0 +1,90 @@
+/* Write your CSS here */
+.speedometer-bg-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  height: 100vh;
+}
+.content-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.heading {
+  color: white;
+  font-family: 'Roboto';
+  font-size: 35px;
+  font-style: italic;
+  font-weight: bold;
+}
+
+@media screen and (min-width: 768px) {
+  .heading {
+    font-size: 65px;
+  }
+}
+.image {
+  width: 300px;
+  height: 125px;
+}
+
+@media screen and (min-width: 768px) {
+  .image {
+    width: 650px;
+    height: 300px;
+  }
+}
+.speed-value {
+  font-family: 'Roboto';
+  font-size: 24px;
+  color: white;
+  font-weight: 500;
+}
+@media screen and (min-width: 768px) {
+  .speed-value {
+    font-size: 40px;
+  }
+}
+.speed-limits {
+  font-family: 'Roboto';
+  font-size: 18px;
+  color: #cbd5e1;
+}
+
+@media screen and (min-width: 768px) {
+  .speed-limits {
+    font-size: 24px;
+  }
+}
+.buttons-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.button {
+  border-radius: 8px;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  margin-left: 12px;
+  margin-right: 12px;
+  outline: none;
+  cursor: pointer;
+  font-family: 'Roboto';
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.accelerate-button {
+  color: white;
+  background-color: #0b69ff;
+  border: none;
+}
+.apply-brake-button {
+  border: 2px solid #94a3b8;
+  color: #94a3b8;
+  background-color: transparent;
+}
